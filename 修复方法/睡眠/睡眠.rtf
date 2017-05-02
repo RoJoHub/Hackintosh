@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg936\cocoartf1504\cocoasubrtf760
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red16\green16\blue16;\red251\green251\blue255;\red19\green0\blue155;
+}
+{\*\expandedcolortbl;;\cssrgb\c7451\c7451\c7451;\cssrgb\c98824\c98824\c100000;\cssrgb\c10196\c5098\c67059;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl340\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Finally, I got it fixed (i5 6500). Following steps is not detailed enough, just for your information.\
+\
+1) Set hibernate mode\
+$ sudo pmset -a hibernatemode 25\
+\
+2) Make sure image file can be written.\
+$ ls -lh /var/vm/sleepimage\
+-rw------T 1 root wheel 8.0G Dec 1 23:35 /var/vm/sleepimage\
+\
+3) Not sure if these configuration is required.\
+System Preferences >> Energy Saver >> Power Nap disable\
+Clover: Boot parameter >> darkwake=0\
+\
+4) Download RehabMan-FakePCIID-2016-1115.zip from {\field{\*\fldinst{HYPERLINK "https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads"}}{\fldrslt \cf4 \ul \ulc4 \strokec4 https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads}}\
+extracting zip file, then copy:\
+FakePCIID.kext\
+FakePCIID_Intel_HD_Graphics.kext\
+from Release to /Volumes/EFI/EFI/CLOVER/kexts/Other/\
+\
+5) Modify /Volumes/EFI/EFI/CLOVER/config.plist according attached config-Intel-HD530.plist\
+NOTE: I also changed the value of ig-platform-id from 'AAAWGQ==\\n' to 'AAASGQ==\\n'\
+\
+6) Restart.\
+\
+Good luck.}
