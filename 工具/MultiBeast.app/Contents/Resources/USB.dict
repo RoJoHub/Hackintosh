@@ -17,12 +17,22 @@
             <array>
                 <string>7/8/9 Series USB Support</string>
                 <string>Enables full USB 2.0 and 3.0 support on 7/8/9 Series motherboards. Installs FakePCIID.kext and FakePCIID_XHCIMux.kext to /Library/Extensions.</string>
-                <string>FakePCIID-v1.3.2.pkg</string>
+                <string>FakePCIID_XHCIMux-v1.3.6.pkg</string>
             </array>
             <array>
-                <string>Increase Max Port Limit</string>
-                <string>Enables USB 2.0 and 3.0 support on 9/100 Series motherboards. Adds Raise Port Limit Patch to Volumes/EFI/EFI/CLOVER/config.plist and installs USBInjectAll.kext to /Library/Extensions.</string>
-                <string>Clover-USB-Port-Limit-Sierra.pkg</string>
+                <string>Increase Max Port Limit 9 Series</string>
+                <string>Enables USB 2.0 and 3.0 support on 9 Series motherboards. Adds Raise Port Limit Patch to Volumes/EFI/EFI/CLOVER/config.plist and installs USBInjectAll.kext to /Library/Extensions.</string>
+                <string>Clover-USB-Port-Limit-Sierra-9-Series.pkg</string>
+            </array>
+            <array>
+                <string>Increase Max Port Limit 100 Series</string>
+                <string>Enables USB 2.0 and 3.0 support on 100 Series motherboards. Adds Raise Port Limit Patch to Volumes/EFI/EFI/CLOVER/config.plist and installs USBInjectAll.kext to /Library/Extensions.</string>
+                <string>Clover-USB-Port-Limit-Sierra-100-Series.pkg</string>
+            </array>
+            <array>
+                <string>Increase Max Port Limit 200 Series</string>
+                <string>Enables USB 2.0 and 3.0 support on 200 Series motherboards. Adds Raise Port Limit Patch to Volumes/EFI/EFI/CLOVER/config.plist and installs USBInjectAll.kext and XHCI-200-series-injector.kext to /Library/Extensions.</string>
+                <string>Clover-USB-Port-Limit-Sierra-200-Series.pkg</string>
             </array>
         </array>
     </dict>

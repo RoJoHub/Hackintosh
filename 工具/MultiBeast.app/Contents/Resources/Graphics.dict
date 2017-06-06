@@ -15,9 +15,14 @@
                 <string>Clover-HD3000-Graphics.pkg</string>
             </array>
             <array>
-                <string>Intel HD 530</string>
-                <string>For desktop systems with Intel HD 530 graphics. Fix for most Intel HD 530 graphics port layouts on 100 Series motherboards. Adds 4 display patch for AppleIntelSKLGraphicsFramebuffer to Volumes/EFI/EFI/CLOVER/config.plist. Adds ig-platform-id=0x19120000 to Volumes/EFI/EFI/CLOVER/config.plist. Equivalent to Chimera IGPEnabler=Yes.</string>
-                <string>Clover-HD530-Graphics.pkg</string>
+                <string>Intel HD 5xx</string>
+                <string>For desktop systems with Intel HD 5xx graphics. Fix for most Intel HD 5xx graphics port layouts on 100 Series motherboards. Adds the following to Volumes/EFI/EFI/CLOVER/config.plist: 4 display patch for AppleIntelSKLGraphicsFramebuffer, ig-platform-id=0x19120000 and 'Skylake Glitch Fix' (AAPL,GfxYTile) to Devices/AddProperties/.</string>
+                <string>Clover-HD5xx-Graphics.pkg</string>
+            </array>
+            <array>
+                <string>Intel HD 6xx</string>
+                <string>For desktop systems with Intel HD 6xx graphics. Fix for most Intel HD 6xx graphics port layouts on 200 Series motherboards. Installs FakePCIID.kext and FakePCIID_Intel_HD_Graphics.kext in /Library/Extensions. Adds the following to Volumes/EFI/EFI/CLOVER/config.plist: FakeCPUID 0x0506E3, /Devices/FakeID/IntelGFX=0x19168086, 4 display patch for AppleIntelSKLGraphicsFramebuffer, ig-platform-id=0x19120000, and 'Skylake Glitch Fix' (AAPL,GfxYTile) to Devices/AddProperties/.</string>
+                <string>Clover-HD6xx-Graphics.pkg</string>
             </array>
             <array>
                 <string>Inject ATI</string>
@@ -28,6 +33,11 @@
                 <string>Inject NVIDIA</string>
                 <string>For desktop systems with older NVIDIA graphics cards such as GeForce 8xxx, 9xxx, 2xx, 4xx, 610, and 630. Adds Graphics/Inject/NVIDIA=YES to CustoMac Default /Volumes/EFI/EFI/CLOVER/config.plist. Equivalent to Chimera/Chameleon GraphicsEnabler=Yes.</string>
                 <string>InjectNVIDIA</string>
+            </array>
+            <array>
+                <string>NVIDIA Web Drivers Boot Flag</string>
+                <string>For desktop systems with newer NVIDIA graphics cards based on Kepler, Maxwell or Pascal GPUs. Adds SystemParameters/NvidiaWeb =YES to CustoMac default /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                <string>Clover-NVIDIA-Web.pkg</string>
             </array>
         </array>
     </dict>

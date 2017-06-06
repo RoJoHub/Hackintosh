@@ -77,6 +77,11 @@
                         <string>Mieze's OS X driver for Intel onboard LAN based on Linux source. Installs IntelMausiEthernet.kext in /Library/Extensions.</string>
                         <string>IntelMausiEthernet-v2.2.0.pkg</string>
                     </array>
+                    <array>
+                        <string>IntelMausiEthernet v2.2.1d1</string>
+                        <string>RehabMan’s branch of Mieze's OS X driver for Intel onboard LAN based on Linux source. Adds new device IDs for new 200 Series Ethernet controllers. Installs IntelMausiEthernet.kext in /Library/Extensions.</string>
+                        <string>IntelMausiEthernet-v2.2.1d1.pkg</string>
+                    </array>
                 </array>
             </dict>
             <dict>

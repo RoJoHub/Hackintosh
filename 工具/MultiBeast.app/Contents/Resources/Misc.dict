@@ -10,19 +10,19 @@
         <key>Children</key>
         <array>
             <array>
-                <string>FakeSMC v6.21-311-g2958f55.1723</string>
+                <string>FakeSMC v6.25-332-gf3a8525c.1758</string>
                 <string>FakeSMC.kext is the only absolutely mandatory kext, and is required for booting the system. Original by netkas, new branch by kozlek. Installs FakeSMC.kext in /Library/Extensions.</string>
-                <string>FakeSMC-v6.21-311-g2958f55.1723.pkg</string>
+                <string>FakeSMC-v6.25-332-gf3a8525c.1758.pkg</string>
             </array>
             <array>
-                <string>FakeSMC Plugins v6.21-311-g2958f55.1723</string>
+                <string>FakeSMC Plugins v6.25-332-gf3a8525c.1758</string>
                 <string>Installs FakeSMC plugins ACPISensors.kext, CPUSensors.kext, GPUSensors.kext and LPCSensors.kext in /Library/Extensions. These plugins allow software access to motherboard hardware monitors.</string>
-                <string>FakeSMC-Plugins-v6.21-311-g2958f55.1723.pkg</string>
+                <string>FakeSMC-Plugins-v6.25-332-gf3a8525c.1758.pkg</string>
             </array>
             <array>
-                <string>FakeSMC HWMonitor Application v6.21-311-g2958f55.1723</string>
+                <string>FakeSMC HWMonitor Application v6.25-332-gf3a8525c.1758</string>
                 <string>Hardware Monitoring application from kozlek's branch. Requires FakeSMC Motherboard Plugins. Installs /Applications/HWMonitor.app.</string>
-                <string>FakeSMC-HWMonitor-v6.21-311-g2958f55.1723.pkg</string>
+                <string>FakeSMC-HWMonitor-v6.25-332-gf3a8525c.1758.pkg</string>
             </array>
             <array>
                 <string>NullCPUPowerManagement v1.0.0d2</string>
