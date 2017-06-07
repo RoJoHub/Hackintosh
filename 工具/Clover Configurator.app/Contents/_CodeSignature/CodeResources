@@ -14,7 +14,7 @@
 		</data>
 		<key>Resources/Document.nib</key>
 		<data>
-		4C71f81n4StnqQmwhov/5Tkjk9g=
+		noIH5cAiD10hx6AOusevpnejEYM=
 		</data>
 		<key>Resources/Drivers/FSInject-32.efi</key>
 		<data>
@@ -26,19 +26,51 @@
 		</data>
 		<key>Resources/MainMenu.nib</key>
 		<data>
-		N4iafjFz51UqIQVY1TTy/I+nlyc=
+		D9iYcZ+4sapy53FgQa3jsx+PyUU=
 		</data>
 		<key>Resources/ViewItems.nib</key>
 		<data>
 		ZvvBZIYzGdQOzAGokbGR1yDdADI=
 		</data>
+		<key>Resources/acpi.nib</key>
+		<data>
+		CXW/pppMQ87S1cw7cbAy0uvBnsw=
+		</data>
 		<key>Resources/app.icns</key>
 		<data>
 		AS3PTb9Bl4Arj0zwd14t0ypQ7lM=
 		</data>
+		<key>Resources/bdmesg.nib</key>
+		<data>
+		Bk/FHW1rDI2Y7WYRhbmvtvCEdi8=
+		</data>
+		<key>Resources/boot.nib</key>
+		<data>
+		KVaWppNl8ivgKvLKJImmuC+olf8=
+		</data>
+		<key>Resources/bootgraphics.nib</key>
+		<data>
+		/+PToFvheeifcIHKu2NmaibPKAc=
+		</data>
+		<key>Resources/cpu.nib</key>
+		<data>
+		sCl4S09/akI3LiUJnXg07aXH20M=
+		</data>
 		<key>Resources/database.mom</key>
 		<data>
-		hmf+gjEeqOErXU4nNEqQLZTpl7M=
+		B3ToNLKHN0nNinu34JdCtmUNMnA=
+		</data>
+		<key>Resources/devices.nib</key>
+		<data>
+		jDYr3dxP4N7Q8N2m5ju+g5toeFo=
+		</data>
+		<key>Resources/disabledrv.nib</key>
+		<data>
+		Rza7ZOXkj7aMB4TpMh8u1c8hKWs=
+		</data>
+		<key>Resources/drivers.nib</key>
+		<data>
+		uARfnizWW5zeqrgsj3Vzlsq54rc=
 		</data>
 		<key>Resources/dsa_pub.pem</key>
 		<data>
@@ -53,13 +85,53 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Resources/graphics.nib</key>
+		<data>
+		zavhfqJDWNfxbv+Is1S3boOJG6k=
+		</data>
+		<key>Resources/gui.nib</key>
+		<data>
+		yBwnCCGDNZ6HGkPTZ+EEJmVYyaU=
+		</data>
+		<key>Resources/kernelkexts.nib</key>
+		<data>
+		p0gzBwGcJ5aV4QrPsngN0X+dmzc=
+		</data>
+		<key>Resources/mountefi.nib</key>
+		<data>
+		YkP7Sq0C4o/AMW+1/7deTxcX8uU=
+		</data>
+		<key>Resources/nvram.nib</key>
+		<data>
+		sCH2GLSb8PPfQkMwxGVVJmta0gk=
+		</data>
 		<key>Resources/pack1.res</key>
 		<data>
-		V/nPsyti73SDUkt0fsvfDxD4zKM=
+		eXZBSouWvbs6n4IyPR9akw/62KE=
 		</data>
 		<key>Resources/pack2.res</key>
 		<data>
-		ijRHOue74xZC3gFTNpKvA7SMvOc=
+		6mwOX6bHjhn9f13ba/EE3lqF9as=
+		</data>
+		<key>Resources/rtvariables.nib</key>
+		<data>
+		+tp3VPoDfHZROnkA3kjsDMnibTw=
+		</data>
+		<key>Resources/smbios.nib</key>
+		<data>
+		e32Lz6iuQYKgJbTddQG9xK32l+8=
+		</data>
+		<key>Resources/system.nib</key>
+		<data>
+		KZP6e2H9fyoDKhYcDJR0Gbvn3kA=
+		</data>
+		<key>Resources/themes.nib</key>
+		<data>
+		fJZOSD7k313FCN6hH19GkzTFx5E=
+		</data>
+		<key>Resources/update.nib</key>
+		<data>
+		aZBfWXkbaLjXUHpynAzFQJLLKVw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -83,7 +155,7 @@
 		</data>
 		<key>Resources/Document.nib</key>
 		<data>
-		4C71f81n4StnqQmwhov/5Tkjk9g=
+		noIH5cAiD10hx6AOusevpnejEYM=
 		</data>
 		<key>Resources/Drivers/FSInject-32.efi</key>
 		<data>
@@ -95,19 +167,51 @@
 		</data>
 		<key>Resources/MainMenu.nib</key>
 		<data>
-		N4iafjFz51UqIQVY1TTy/I+nlyc=
+		D9iYcZ+4sapy53FgQa3jsx+PyUU=
 		</data>
 		<key>Resources/ViewItems.nib</key>
 		<data>
 		ZvvBZIYzGdQOzAGokbGR1yDdADI=
 		</data>
+		<key>Resources/acpi.nib</key>
+		<data>
+		CXW/pppMQ87S1cw7cbAy0uvBnsw=
+		</data>
 		<key>Resources/app.icns</key>
 		<data>
 		AS3PTb9Bl4Arj0zwd14t0ypQ7lM=
 		</data>
+		<key>Resources/bdmesg.nib</key>
+		<data>
+		Bk/FHW1rDI2Y7WYRhbmvtvCEdi8=
+		</data>
+		<key>Resources/boot.nib</key>
+		<data>
+		KVaWppNl8ivgKvLKJImmuC+olf8=
+		</data>
+		<key>Resources/bootgraphics.nib</key>
+		<data>
+		/+PToFvheeifcIHKu2NmaibPKAc=
+		</data>
+		<key>Resources/cpu.nib</key>
+		<data>
+		sCl4S09/akI3LiUJnXg07aXH20M=
+		</data>
 		<key>Resources/database.mom</key>
 		<data>
-		hmf+gjEeqOErXU4nNEqQLZTpl7M=
+		B3ToNLKHN0nNinu34JdCtmUNMnA=
+		</data>
+		<key>Resources/devices.nib</key>
+		<data>
+		jDYr3dxP4N7Q8N2m5ju+g5toeFo=
+		</data>
+		<key>Resources/disabledrv.nib</key>
+		<data>
+		Rza7ZOXkj7aMB4TpMh8u1c8hKWs=
+		</data>
+		<key>Resources/drivers.nib</key>
+		<data>
+		uARfnizWW5zeqrgsj3Vzlsq54rc=
 		</data>
 		<key>Resources/dsa_pub.pem</key>
 		<data>
@@ -122,13 +226,53 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Resources/graphics.nib</key>
+		<data>
+		zavhfqJDWNfxbv+Is1S3boOJG6k=
+		</data>
+		<key>Resources/gui.nib</key>
+		<data>
+		yBwnCCGDNZ6HGkPTZ+EEJmVYyaU=
+		</data>
+		<key>Resources/kernelkexts.nib</key>
+		<data>
+		p0gzBwGcJ5aV4QrPsngN0X+dmzc=
+		</data>
+		<key>Resources/mountefi.nib</key>
+		<data>
+		YkP7Sq0C4o/AMW+1/7deTxcX8uU=
+		</data>
+		<key>Resources/nvram.nib</key>
+		<data>
+		sCH2GLSb8PPfQkMwxGVVJmta0gk=
+		</data>
 		<key>Resources/pack1.res</key>
 		<data>
-		V/nPsyti73SDUkt0fsvfDxD4zKM=
+		eXZBSouWvbs6n4IyPR9akw/62KE=
 		</data>
 		<key>Resources/pack2.res</key>
 		<data>
-		ijRHOue74xZC3gFTNpKvA7SMvOc=
+		6mwOX6bHjhn9f13ba/EE3lqF9as=
+		</data>
+		<key>Resources/rtvariables.nib</key>
+		<data>
+		+tp3VPoDfHZROnkA3kjsDMnibTw=
+		</data>
+		<key>Resources/smbios.nib</key>
+		<data>
+		e32Lz6iuQYKgJbTddQG9xK32l+8=
+		</data>
+		<key>Resources/system.nib</key>
+		<data>
+		KZP6e2H9fyoDKhYcDJR0Gbvn3kA=
+		</data>
+		<key>Resources/themes.nib</key>
+		<data>
+		fJZOSD7k313FCN6hH19GkzTFx5E=
+		</data>
+		<key>Resources/update.nib</key>
+		<data>
+		aZBfWXkbaLjXUHpynAzFQJLLKVw=
 		</data>
 	</dict>
 	<key>rules</key>
